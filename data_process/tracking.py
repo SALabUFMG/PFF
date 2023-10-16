@@ -3,17 +3,17 @@ import d6tflow as d6t
 import numpy as np
 import pandas as pd
 
-import base
+from config import RAW_DATA_PATH
+from data_process import base
 
 class LoadTrackingHalf(d6t.tasks.TaskPickle):
     match_id = d6t.IntParameter()
     half = d6t.IntParameter()
-    path_name = d6t.Parameter()
 
     persist = ['frames', 'players', 'game_events', 'possession_events']
 
     def run(self):
-        raw_frames = pd.read_json(self.path_name + "/" + str(self.match_id) + "_" + str(self.half) + ".jsonl", lines=True)
+        raw_frames = pd.read_json(RAW_DATA_PATH + "/" + str(self.match_id) + "_" + str(self.half) + ".jsonl", lines=True)
 
         clean_frames = raw_frames.drop_duplicates(subset='frameNum').reset_index(drop=True)
         clean_frames = clean_frames.rename(columns={
@@ -61,5 +61,43 @@ class LoadTrackingHalf(d6t.tasks.TaskPickle):
         player_ids = player_ids.drop('home_team', axis=1)
         player_ids['shirt_number'] = player_ids['shirt_number'].astype(int)
         clean_players = player_ids.merge(right=clean_players, on=['shirt_number', 'team'], how='right')
+
+        clean_players = clean_players.sort_values(by=['player_id', 'frame_num'])
+        clean_players['vx'] = 0.
+        clean_players['vy'] = 0.
+        clean_players['vtot'] = 0.
+        clean_players['ax'] = 0.
+        clean_players['ay'] = 0.
+        clean_players['atot'] = 0.
+
+        for p_id in player_ids['player_id']:
+            mask = clean_players['player_id'] == p_id
+            player_coords = clean_players[mask].copy()
+            idxs = player_coords.index.values
+
+            player_coords['vx'] = (player_coords['x'] - player_coords['x'].shift(1)) * 30
+            player_coords['vx'] = (player_coords['x'] - player_coords['x'].shift(1)) * 30
+            player_coords.loc[idxs[0], 'vx'] = player_coords.loc[idxs[1], 'vx']
+            player_coords['vy'] = (player_coords['y'] - player_coords['y'].shift(1)) * 30
+            player_coords['vy'] = (player_coords['y'] - player_coords['y'].shift(1)) * 30
+            player_coords.loc[idxs[0], 'vy'] = player_coords.loc[idxs[1], 'vy']
+
+            player_coords['ax'] = (player_coords['vx'] - player_coords['vx'].shift(1)) * 30
+            player_coords['ax'] = (player_coords['vx'] - player_coords['vx'].shift(1)) * 30
+            player_coords.loc[idxs[0], 'ax'] = player_coords.loc[idxs[1], 'ax']
+            player_coords['ay'] = (player_coords['vy'] - player_coords['vy'].shift(1)) * 30
+            player_coords['ay'] = (player_coords['vy'] - player_coords['vy'].shift(1)) * 30
+            player_coords.loc[idxs[0], 'ay'] = player_coords.loc[idxs[1], 'ay']
+
+            clean_players[mask] = player_coords
+
+        clean_players['vtot'] = np.sqrt(clean_players['vx'] ** 2 + clean_players['vy'] ** 2)
+        clean_players['atot'] = np.sqrt(clean_players['ax'] ** 2 + clean_players['ay'] ** 2)
+
+        clean_players = clean_players.sort_values(by=['frame_num', 'team', 'shirt_number'], ascending=[True, False, True]).reset_index(drop=True)
+        clean_players = clean_players[[
+            'frame_num', 'team', 'team_id', 'player_id', 'shirt_number', 'visibility', 'confidence',
+            'x', 'y', 'vx', 'vy', 'vtot', 'ax', 'ay', 'atot'
+        ]]
 
         self.save({'frames': clean_frames, 'players': clean_players, 'game_events': game_events, 'possession_events': possession_events})
