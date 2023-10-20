@@ -2,11 +2,10 @@
 
 This package handles tracking data from PFF FC.
 
-- [Features](#features)
-- [Python version](#python)
 - [Setup Guide](#setup-guide)
 - [Usage](#usage)
 - [Testing](#testing)
+- [Contributing](#contributing)
 
 ## Python
 
@@ -14,13 +13,13 @@ This package handles tracking data from PFF FC.
 
 ## What is in this repo
 
-- Pitch control
-- OBSO
 - Data cleansing
 - Frame visualization
+- Pitch control
 
 ## Setup guide
 
+### General Installation
 Here's what you have to do to clone and install the requirements.
 
 ```bash
@@ -40,8 +39,12 @@ poetry install
 
 When you're done, don't forget to deactivate the virtual env:
 
+### Pitch Control Module Installation
+
+First of all, ensure you have a C++ compiler installed. After that, do the following:
 ```bash
-deactivate
+cd 'your_path/PFF/pitch_control'
+python setup.py build_ext --inplace
 ```
 
 ## Usage
