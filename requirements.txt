@@ -1,0 +1,11 @@
+numpy
+pandas
+d6tflow
+torch
+luigi
+interfaces
+scipy
+scikit-learn
+statsmodels
+tqdm
+cython
