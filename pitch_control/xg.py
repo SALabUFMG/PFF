@@ -1,11 +1,11 @@
 # Library imports
-import numpy as np
 import d6tflow as d6t
-import luigi
 
 # Project imports
 import interfaces as itf
-import generaltasks as gt
+import luigi
+import numpy as np
+
 
 @d6t.inherits(itf.Pitch)
 class CalcXGTarget(d6t.tasks.TaskCache):
@@ -15,13 +15,14 @@ class CalcXGTarget(d6t.tasks.TaskCache):
         x = self.field_dimen[0] / 2 - self.target_position[0]
         y = self.target_position[1]
 
-        a = np.arctan(7.32 * x / (x ** 2 + abs(y) ** 2 - (7.32 / 2) ** 2))
+        a = np.arctan(7.32 * x / (x**2 + abs(y) ** 2 - (7.32 / 2) ** 2))
         if a < 0:
             a = np.pi + a
         angle = a
-        distance = np.sqrt(x ** 2 + abs(y) ** 2)
+        distance = np.sqrt(x**2 + abs(y) ** 2)
 
-        # coefficient determined thanks to expected goals model https://github.com/Gabsrol/liverpool_analytics_challenge/blob/master/expected_goals_model.ipynb
+        # coefficient determined thanks to expected goals modelhttps
+        # https://github.com/Gabsrol/liverpool_analytics_challenge/blob/master/expected_goals_model.ipynb # noqa
         c1 = 0.1155
         c2 = -1.2594
         intercept = 0.7895
@@ -32,13 +33,20 @@ class CalcXGTarget(d6t.tasks.TaskCache):
 
         self.save(xG)
 
+
 @d6t.inherits(itf.Pitch)
 class CalcXGFrame(d6t.tasks.TaskPickle):
     def run(self):
         # break the pitch down into a grid
-        n_grid_cells_y = int(self.n_grid_cells_x * self.field_dimen[1] / self.field_dimen[0])
-        xgrid = np.linspace(-self.field_dimen[0] / 2., self.field_dimen[0] / 2., self.n_grid_cells_x)
-        ygrid = np.linspace(-self.field_dimen[1] / 2., self.field_dimen[1] / 2., n_grid_cells_y)
+        n_grid_cells_y = int(
+            self.n_grid_cells_x * self.field_dimen[1] / self.field_dimen[0]
+        )
+        xgrid = np.linspace(
+            -self.field_dimen[0] / 2.0, self.field_dimen[0] / 2.0, self.n_grid_cells_x
+        )
+        ygrid = np.linspace(
+            -self.field_dimen[1] / 2.0, self.field_dimen[1] / 2.0, n_grid_cells_y
+        )
 
         # initialise expected goals
         xG = np.zeros(shape=(len(ygrid), len(xgrid)))
@@ -48,6 +56,8 @@ class CalcXGFrame(d6t.tasks.TaskPickle):
             for j in range(len(xgrid)):
                 target_position = np.array([xgrid[j], ygrid[i]])
                 d6t.run(CalcXGTarget(target_position=tuple(target_position)))
-                xG[i, j] = CalcXGTarget(target_position=tuple(target_position)).output().load()
+                xG[i, j] = (
+                    CalcXGTarget(target_position=tuple(target_position)).output().load()
+                )
 
         self.save(xG)

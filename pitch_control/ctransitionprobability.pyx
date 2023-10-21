@@ -1,7 +1,10 @@
 import numpy as np
+
 cimport numpy as np
+
 from scipy.stats import multivariate_normal
 from scipy.stats._multivariate import multivariate_normal_frozen
+
 
 def cCalcTransitionProbabilityFrame(np.ndarray PPCFa, float ball_x, float ball_y, dict params, int n_grid_cells_x, float field_x, float field_y):
     # break the pitch down into a grid

@@ -1389,7 +1389,7 @@ struct __pyx_obj_8cyplayer_CyPlayer;
  * # Python extension type.
  * cdef class CyPlayer:             # <<<<<<<<<<<<<<
  *     cdef Player cpp_player  # Hold a C++ instance which we're wrapping
- * 
+ *
  */
 struct __pyx_obj_8cyplayer_CyPlayer {
   PyObject_HEAD
@@ -2389,10 +2389,10 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 
 /* "cyplayer.pyx":11
  *     cdef Player cpp_player  # Hold a C++ instance which we're wrapping
- * 
+ *
  *     def __cinit__(self, int id, float position_x, float position_y, float velocity_x, float velocity_y, float vmax, float reaction_time, float tti_sigma):             # <<<<<<<<<<<<<<
  *         self.cpp_player = Player(id, position_x, position_y, velocity_x, velocity_y, vmax, reaction_time, tti_sigma)
- * 
+ *
  */
 
 /* Python wrapper */
@@ -2545,10 +2545,10 @@ static int __pyx_pf_8cyplayer_8CyPlayer___cinit__(struct __pyx_obj_8cyplayer_CyP
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
   /* "cyplayer.pyx":12
- * 
+ *
  *     def __cinit__(self, int id, float position_x, float position_y, float velocity_x, float velocity_y, float vmax, float reaction_time, float tti_sigma):
  *         self.cpp_player = Player(id, position_x, position_y, velocity_x, velocity_y, vmax, reaction_time, tti_sigma)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def simple_time_to_intercept(self, float target_x, float target_y):
  */
   try {
@@ -2561,10 +2561,10 @@ static int __pyx_pf_8cyplayer_8CyPlayer___cinit__(struct __pyx_obj_8cyplayer_CyP
 
   /* "cyplayer.pyx":11
  *     cdef Player cpp_player  # Hold a C++ instance which we're wrapping
- * 
+ *
  *     def __cinit__(self, int id, float position_x, float position_y, float velocity_x, float velocity_y, float vmax, float reaction_time, float tti_sigma):             # <<<<<<<<<<<<<<
  *         self.cpp_player = Player(id, position_x, position_y, velocity_x, velocity_y, vmax, reaction_time, tti_sigma)
- * 
+ *
  */
 
   /* function exit code */
@@ -2580,14 +2580,14 @@ static int __pyx_pf_8cyplayer_8CyPlayer___cinit__(struct __pyx_obj_8cyplayer_CyP
 
 /* "cyplayer.pyx":14
  *         self.cpp_player = Player(id, position_x, position_y, velocity_x, velocity_y, vmax, reaction_time, tti_sigma)
- * 
+ *
  *     def simple_time_to_intercept(self, float target_x, float target_y):             # <<<<<<<<<<<<<<
  *         return self.cpp_player.simple_time_to_intercept(target_x, target_y)
- * 
+ *
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8cyplayer_8CyPlayer_3simple_time_to_intercept(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_8cyplayer_8CyPlayer_3simple_time_to_intercept(PyObject *__pyx_v_self,
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2595,7 +2595,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
 static PyMethodDef __pyx_mdef_8cyplayer_8CyPlayer_3simple_time_to_intercept = {"simple_time_to_intercept", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8cyplayer_8CyPlayer_3simple_time_to_intercept, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8cyplayer_8CyPlayer_3simple_time_to_intercept(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_8cyplayer_8CyPlayer_3simple_time_to_intercept(PyObject *__pyx_v_self,
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2679,10 +2679,10 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_2simple_time_to_intercept(struct _
   __Pyx_RefNannySetupContext("simple_time_to_intercept", 0);
 
   /* "cyplayer.pyx":15
- * 
+ *
  *     def simple_time_to_intercept(self, float target_x, float target_y):
  *         return self.cpp_player.simple_time_to_intercept(target_x, target_y)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def probability_intercept_ball(self, float t):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -2694,10 +2694,10 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_2simple_time_to_intercept(struct _
 
   /* "cyplayer.pyx":14
  *         self.cpp_player = Player(id, position_x, position_y, velocity_x, velocity_y, vmax, reaction_time, tti_sigma)
- * 
+ *
  *     def simple_time_to_intercept(self, float target_x, float target_y):             # <<<<<<<<<<<<<<
  *         return self.cpp_player.simple_time_to_intercept(target_x, target_y)
- * 
+ *
  */
 
   /* function exit code */
@@ -2713,14 +2713,14 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_2simple_time_to_intercept(struct _
 
 /* "cyplayer.pyx":17
  *         return self.cpp_player.simple_time_to_intercept(target_x, target_y)
- * 
+ *
  *     def probability_intercept_ball(self, float t):             # <<<<<<<<<<<<<<
  *         return self.cpp_player.probability_intercept_ball(t)
- * 
+ *
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8cyplayer_8CyPlayer_5probability_intercept_ball(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_8cyplayer_8CyPlayer_5probability_intercept_ball(PyObject *__pyx_v_self,
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2728,7 +2728,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
 static PyMethodDef __pyx_mdef_8cyplayer_8CyPlayer_5probability_intercept_ball = {"probability_intercept_ball", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8cyplayer_8CyPlayer_5probability_intercept_ball, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8cyplayer_8CyPlayer_5probability_intercept_ball(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_8cyplayer_8CyPlayer_5probability_intercept_ball(PyObject *__pyx_v_self,
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2800,10 +2800,10 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_4probability_intercept_ball(struct
   __Pyx_RefNannySetupContext("probability_intercept_ball", 0);
 
   /* "cyplayer.pyx":18
- * 
+ *
  *     def probability_intercept_ball(self, float t):
  *         return self.cpp_player.probability_intercept_ball(t)             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -2815,10 +2815,10 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_4probability_intercept_ball(struct
 
   /* "cyplayer.pyx":17
  *         return self.cpp_player.simple_time_to_intercept(target_x, target_y)
- * 
+ *
  *     def probability_intercept_ball(self, float t):             # <<<<<<<<<<<<<<
  *         return self.cpp_player.probability_intercept_ball(t)
- * 
+ *
  */
 
   /* function exit code */
@@ -2834,7 +2834,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_4probability_intercept_ball(struct
 
 /* "cyplayer.pyx":20
  *         return self.cpp_player.probability_intercept_ball(t)
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def id(self):
  *         return self.cpp_player.id
@@ -2867,7 +2867,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_2id___get__(struct __pyx_obj_8cypl
  *     @property
  *     def id(self):
  *         return self.cpp_player.id             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -2879,7 +2879,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_2id___get__(struct __pyx_obj_8cypl
 
   /* "cyplayer.pyx":20
  *         return self.cpp_player.probability_intercept_ball(t)
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def id(self):
  *         return self.cpp_player.id
@@ -2898,7 +2898,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_2id___get__(struct __pyx_obj_8cypl
 
 /* "cyplayer.pyx":24
  *         return self.cpp_player.id
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def position_x(self):
  *         return self.cpp_player.position_x
@@ -2931,7 +2931,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_10position_x___get__(struct __pyx_
  *     @property
  *     def position_x(self):
  *         return self.cpp_player.position_x             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -2943,7 +2943,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_10position_x___get__(struct __pyx_
 
   /* "cyplayer.pyx":24
  *         return self.cpp_player.id
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def position_x(self):
  *         return self.cpp_player.position_x
@@ -2962,7 +2962,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_10position_x___get__(struct __pyx_
 
 /* "cyplayer.pyx":28
  *         return self.cpp_player.position_x
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def position_y(self):
  *         return self.cpp_player.position_y
@@ -2995,7 +2995,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_10position_y___get__(struct __pyx_
  *     @property
  *     def position_y(self):
  *         return self.cpp_player.position_y             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3007,7 +3007,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_10position_y___get__(struct __pyx_
 
   /* "cyplayer.pyx":28
  *         return self.cpp_player.position_x
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def position_y(self):
  *         return self.cpp_player.position_y
@@ -3026,7 +3026,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_10position_y___get__(struct __pyx_
 
 /* "cyplayer.pyx":32
  *         return self.cpp_player.position_y
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def velocity_x(self):
  *         return self.cpp_player.velocity_x
@@ -3059,7 +3059,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_10velocity_x___get__(struct __pyx_
  *     @property
  *     def velocity_x(self):
  *         return self.cpp_player.velocity_x             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3071,7 +3071,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_10velocity_x___get__(struct __pyx_
 
   /* "cyplayer.pyx":32
  *         return self.cpp_player.position_y
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def velocity_x(self):
  *         return self.cpp_player.velocity_x
@@ -3090,7 +3090,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_10velocity_x___get__(struct __pyx_
 
 /* "cyplayer.pyx":36
  *         return self.cpp_player.velocity_x
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def velocity_y(self):
  *         return self.cpp_player.velocity_y
@@ -3123,7 +3123,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_10velocity_y___get__(struct __pyx_
  *     @property
  *     def velocity_y(self):
  *         return self.cpp_player.velocity_y             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3135,7 +3135,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_10velocity_y___get__(struct __pyx_
 
   /* "cyplayer.pyx":36
  *         return self.cpp_player.velocity_x
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def velocity_y(self):
  *         return self.cpp_player.velocity_y
@@ -3154,7 +3154,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_10velocity_y___get__(struct __pyx_
 
 /* "cyplayer.pyx":40
  *         return self.cpp_player.velocity_y
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def time_to_intercept(self):
  *         return self.cpp_player.time_to_intercept
@@ -3199,7 +3199,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_17time_to_intercept___get__(struct
 
   /* "cyplayer.pyx":40
  *         return self.cpp_player.velocity_y
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def time_to_intercept(self):
  *         return self.cpp_player.time_to_intercept
@@ -3251,7 +3251,7 @@ static int __pyx_pf_8cyplayer_8CyPlayer_17time_to_intercept_2__set__(struct __py
  *     @time_to_intercept.setter
  *     def time_to_intercept(self, time_to_intercept):
  *         self.cpp_player.time_to_intercept = time_to_intercept             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __pyx_t_1 = __pyx_PyFloat_AsFloat(__pyx_v_time_to_intercept); if (unlikely((__pyx_t_1 == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 45, __pyx_L1_error)
@@ -3278,7 +3278,7 @@ static int __pyx_pf_8cyplayer_8CyPlayer_17time_to_intercept_2__set__(struct __py
 
 /* "cyplayer.pyx":47
  *         self.cpp_player.time_to_intercept = time_to_intercept
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def PPCF(self):
  *         return self.cpp_player.PPCF
@@ -3323,7 +3323,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_4PPCF___get__(struct __pyx_obj_8cy
 
   /* "cyplayer.pyx":47
  *         self.cpp_player.time_to_intercept = time_to_intercept
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def PPCF(self):
  *         return self.cpp_player.PPCF
@@ -3405,7 +3405,7 @@ static int __pyx_pf_8cyplayer_8CyPlayer_4PPCF_2__set__(struct __pyx_obj_8cyplaye
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8cyplayer_8CyPlayer_7__reduce_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_8cyplayer_8CyPlayer_7__reduce_cython__(PyObject *__pyx_v_self,
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3413,7 +3413,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
 static PyMethodDef __pyx_mdef_8cyplayer_8CyPlayer_7__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8cyplayer_8CyPlayer_7__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8cyplayer_8CyPlayer_7__reduce_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_8cyplayer_8CyPlayer_7__reduce_cython__(PyObject *__pyx_v_self,
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3477,7 +3477,7 @@ static PyObject *__pyx_pf_8cyplayer_8CyPlayer_6__reduce_cython__(CYTHON_UNUSED s
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8cyplayer_8CyPlayer_9__setstate_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_8cyplayer_8CyPlayer_9__setstate_cython__(PyObject *__pyx_v_self,
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3485,7 +3485,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
 static PyMethodDef __pyx_mdef_8cyplayer_8CyPlayer_9__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_8cyplayer_8CyPlayer_9__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8cyplayer_8CyPlayer_9__setstate_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_8cyplayer_8CyPlayer_9__setstate_cython__(PyObject *__pyx_v_self,
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3857,10 +3857,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "cyplayer.pyx":14
  *         self.cpp_player = Player(id, position_x, position_y, velocity_x, velocity_y, vmax, reaction_time, tti_sigma)
- * 
+ *
  *     def simple_time_to_intercept(self, float target_x, float target_y):             # <<<<<<<<<<<<<<
  *         return self.cpp_player.simple_time_to_intercept(target_x, target_y)
- * 
+ *
  */
   __pyx_tuple_ = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_target_x, __pyx_n_s_target_y); if (unlikely(!__pyx_tuple_)) __PYX_ERR(1, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple_);
@@ -3869,10 +3869,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "cyplayer.pyx":17
  *         return self.cpp_player.simple_time_to_intercept(target_x, target_y)
- * 
+ *
  *     def probability_intercept_ball(self, float t):             # <<<<<<<<<<<<<<
  *         return self.cpp_player.probability_intercept_ball(t)
- * 
+ *
  */
   __pyx_tuple__3 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_t); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(1, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__3);
@@ -4295,10 +4295,10 @@ if (!__Pyx_RefNanny) {
 
   /* "cyplayer.pyx":14
  *         self.cpp_player = Player(id, position_x, position_y, velocity_x, velocity_y, vmax, reaction_time, tti_sigma)
- * 
+ *
  *     def simple_time_to_intercept(self, float target_x, float target_y):             # <<<<<<<<<<<<<<
  *         return self.cpp_player.simple_time_to_intercept(target_x, target_y)
- * 
+ *
  */
   __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_8cyplayer_8CyPlayer_3simple_time_to_intercept, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyPlayer_simple_time_to_intercep, NULL, __pyx_n_s_cyplayer, __pyx_d, ((PyObject *)__pyx_codeobj__2)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -4308,10 +4308,10 @@ if (!__Pyx_RefNanny) {
 
   /* "cyplayer.pyx":17
  *         return self.cpp_player.simple_time_to_intercept(target_x, target_y)
- * 
+ *
  *     def probability_intercept_ball(self, float t):             # <<<<<<<<<<<<<<
  *         return self.cpp_player.probability_intercept_ball(t)
- * 
+ *
  */
   __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_8cyplayer_8CyPlayer_5probability_intercept_ball, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CyPlayer_probability_intercept_b, NULL, __pyx_n_s_cyplayer, __pyx_d, ((PyObject *)__pyx_codeobj__4)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -4342,7 +4342,7 @@ if (!__Pyx_RefNanny) {
 
   /* "cyplayer.pyx":1
  * # distutils: language = c++             # <<<<<<<<<<<<<<
- * 
+ *
  * from Player cimport Player
  */
   __pyx_t_2 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 1, __pyx_L1_error)

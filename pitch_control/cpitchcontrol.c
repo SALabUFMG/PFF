@@ -1102,7 +1102,7 @@ static CYTHON_INLINE float __PYX_NAN() {
 #include <stdio.h>
 
     /* Using NumPy API declarations from "numpy/__init__.cython-30.pxd" */
-    
+
 #include "numpy/arrayobject.h"
 #include "numpy/ndarrayobject.h"
 #include "numpy/ndarraytypes.h"
@@ -1436,7 +1436,7 @@ typedef struct {
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":731
  * # in Cython to enable them only on the right systems.
- * 
+ *
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
@@ -1444,7 +1444,7 @@ typedef struct {
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":732
- * 
+ *
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
  * ctypedef npy_int32      int32_t
@@ -1472,7 +1472,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":738
  * #ctypedef npy_int128     int128_t
- * 
+ *
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
@@ -1480,7 +1480,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":739
- * 
+ *
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
  * ctypedef npy_uint32     uint32_t
@@ -1508,7 +1508,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":745
  * #ctypedef npy_uint128    uint128_t
- * 
+ *
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
  * ctypedef npy_float64    float64_t
  * #ctypedef npy_float80    float80_t
@@ -1516,7 +1516,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":746
- * 
+ *
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
  * #ctypedef npy_float80    float80_t
@@ -1538,7 +1538,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
  * ctypedef npy_longlong   longlong_t
- * 
+ *
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
@@ -1546,14 +1546,14 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_ulong      uint_t
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":759
  * ctypedef npy_longlong   longlong_t
- * 
+ *
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t
@@ -1561,11 +1561,11 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":760
- * 
+ *
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
  * ctypedef npy_ulonglong  ulonglong_t
- * 
+ *
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
@@ -1573,32 +1573,32 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_intp       intp_t
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":763
  * ctypedef npy_ulonglong  ulonglong_t
- * 
+ *
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
  * ctypedef npy_uintp      uintp_t
- * 
+ *
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":764
- * 
+ *
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_double     float_t
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":766
  * ctypedef npy_uintp      uintp_t
- * 
+ *
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t
@@ -1606,11 +1606,11 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
 typedef npy_double __pyx_t_5numpy_float_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":767
- * 
+ *
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
  * ctypedef npy_longdouble longdouble_t
- * 
+ *
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
@@ -1618,7 +1618,7 @@ typedef npy_double __pyx_t_5numpy_double_t;
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_cfloat      cfloat_t
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
@@ -1653,7 +1653,7 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":770
  * ctypedef npy_longdouble longdouble_t
- * 
+ *
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t
@@ -1661,11 +1661,11 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":771
- * 
+ *
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
  * ctypedef npy_clongdouble clongdouble_t
- * 
+ *
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
@@ -1673,16 +1673,16 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_cdouble     complex_t
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":774
  * ctypedef npy_clongdouble clongdouble_t
- * 
+ *
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew1(a):
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
@@ -3172,7 +3172,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 /* #### Code section: module_code ### */
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":245
- * 
+ *
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
  *             """Returns a borrowed reference to the object owning the data/memory.
@@ -3186,14 +3186,14 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
  *             """Returns a borrowed reference to the object owning the data/memory.
  *             """
  *             return PyArray_BASE(self)             # <<<<<<<<<<<<<<
- * 
+ *
  *         @property
  */
   __pyx_r = PyArray_BASE(__pyx_v_self);
   goto __pyx_L0;
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":245
- * 
+ *
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
  *             """Returns a borrowed reference to the object owning the data/memory.
@@ -3206,7 +3206,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
 }
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":251
- * 
+ *
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
  *             """Returns an owned reference to the dtype of the array.
@@ -3223,7 +3223,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
  *             """Returns an owned reference to the dtype of the array.
  *             """
  *             return <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
- * 
+ *
  *         @property
  */
   __Pyx_XDECREF((PyObject *)__pyx_r);
@@ -3233,7 +3233,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   goto __pyx_L0;
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":251
- * 
+ *
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
  *             """Returns an owned reference to the dtype of the array.
@@ -3248,7 +3248,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
 }
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":257
- * 
+ *
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
  *             """Returns the number of dimensions in the array.
@@ -3262,14 +3262,14 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
  *             """Returns the number of dimensions in the array.
  *             """
  *             return PyArray_NDIM(self)             # <<<<<<<<<<<<<<
- * 
+ *
  *         @property
  */
   __pyx_r = PyArray_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":257
- * 
+ *
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
  *             """Returns the number of dimensions in the array.
@@ -3282,7 +3282,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
 }
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":263
- * 
+ *
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
  *             """Returns a pointer to the dimensions/shape of the array.
@@ -3296,14 +3296,14 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
  *             Can return NULL for 0-dimensional arrays.
  *             """
  *             return PyArray_DIMS(self)             # <<<<<<<<<<<<<<
- * 
+ *
  *         @property
  */
   __pyx_r = PyArray_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":263
- * 
+ *
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
  *             """Returns a pointer to the dimensions/shape of the array.
@@ -3316,7 +3316,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 }
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":271
- * 
+ *
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
  *             """Returns a pointer to the strides of the array.
@@ -3330,14 +3330,14 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
  *             The number of elements matches the number of dimensions of the array (ndim).
  *             """
  *             return PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
- * 
+ *
  *         @property
  */
   __pyx_r = PyArray_STRIDES(__pyx_v_self);
   goto __pyx_L0;
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":271
- * 
+ *
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
  *             """Returns a pointer to the strides of the array.
@@ -3350,7 +3350,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
 }
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":278
- * 
+ *
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
  *             """Returns the total size (in number of elements) of the array.
@@ -3364,14 +3364,14 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
  *             """Returns the total size (in number of elements) of the array.
  *             """
  *             return PyArray_SIZE(self)             # <<<<<<<<<<<<<<
- * 
+ *
  *         @property
  */
   __pyx_r = PyArray_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":278
- * 
+ *
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
  *             """Returns the total size (in number of elements) of the array.
@@ -3384,7 +3384,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
 }
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":284
- * 
+ *
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
  *             """The pointer to the data buffer as a char*.
@@ -3398,14 +3398,14 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
  *             of `PyArray_DATA()` instead, which returns a 'void*'.
  *             """
  *             return PyArray_BYTES(self)             # <<<<<<<<<<<<<<
- * 
+ *
  *     ctypedef unsigned char      npy_bool
  */
   __pyx_r = PyArray_BYTES(__pyx_v_self);
   goto __pyx_L0;
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":284
- * 
+ *
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
  *             """The pointer to the data buffer as a char*.
@@ -3419,10 +3419,10 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":776
  * ctypedef npy_cdouble     complex_t
- * 
+ *
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(1, <void*>a)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__pyx_v_a) {
@@ -3435,10 +3435,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":777
- * 
+ *
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew2(a, b):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3450,10 +3450,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":776
  * ctypedef npy_cdouble     complex_t
- * 
+ *
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(1, <void*>a)
- * 
+ *
  */
 
   /* function exit code */
@@ -3469,10 +3469,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(1, <void*>a)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__pyx_v_a, PyObject *__pyx_v_b) {
@@ -3485,10 +3485,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":780
- * 
+ *
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3500,10 +3500,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(1, <void*>a)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
- * 
+ *
  */
 
   /* function exit code */
@@ -3519,10 +3519,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c) {
@@ -3535,10 +3535,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":783
- * 
+ *
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3550,10 +3550,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
- * 
+ *
  */
 
   /* function exit code */
@@ -3569,10 +3569,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d) {
@@ -3585,10 +3585,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":786
- * 
+ *
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3600,10 +3600,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
- * 
+ *
  */
 
   /* function exit code */
@@ -3619,10 +3619,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d, PyObject *__pyx_v_e) {
@@ -3635,10 +3635,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":789
- * 
+ *
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3650,10 +3650,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
- * 
+ *
  */
 
   /* function exit code */
@@ -3669,7 +3669,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":791
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
- * 
+ *
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape
@@ -3682,7 +3682,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":792
- * 
+ *
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
  *         return <tuple>d.subarray.shape
@@ -3704,7 +3704,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
 
     /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":792
- * 
+ *
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
  *         return <tuple>d.subarray.shape
@@ -3716,8 +3716,8 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   /*else*/ {
     __Pyx_XDECREF(__pyx_r);
@@ -3728,7 +3728,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":791
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
- * 
+ *
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape
@@ -3743,7 +3743,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":970
  *     int _import_umath() except -1
- * 
+ *
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)
@@ -3754,11 +3754,11 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":971
- * 
+ *
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
  *     PyArray_SetBaseObject(arr, base)
- * 
+ *
  */
   Py_INCREF(__pyx_v_base);
 
@@ -3766,14 +3766,14 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):
  */
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":970
  *     int _import_umath() except -1
- * 
+ *
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)
@@ -3785,7 +3785,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":974
  *     PyArray_SetBaseObject(arr, base)
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
@@ -3799,7 +3799,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":975
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
  *     if base is NULL:
@@ -3822,7 +3822,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
  *     return <object>base
- * 
+ *
  */
     __Pyx_XDECREF(__pyx_r);
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
@@ -3841,7 +3841,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
- * 
+ *
  * # Versions of the import_* functions which are more suitable for
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3851,7 +3851,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":974
  *     PyArray_SetBaseObject(arr, base)
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
@@ -3932,7 +3932,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
  *         raise ImportError("numpy.core.multiarray failed to import")
- * 
+ *
  */
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
@@ -3946,7 +3946,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline int import_umath() except -1:
  */
       __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 986, __pyx_L5_except_error)
@@ -3998,7 +3998,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":988
  *         raise ImportError("numpy.core.multiarray failed to import")
- * 
+ *
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
  *     try:
  *         _import_umath()
@@ -4021,7 +4021,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   __Pyx_RefNannySetupContext("import_umath", 0);
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":989
- * 
+ *
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
@@ -4046,7 +4046,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 990, __pyx_L3_error)
 
       /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":989
- * 
+ *
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
@@ -4064,7 +4064,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
  *         raise ImportError("numpy.core.umath failed to import")
- * 
+ *
  */
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
@@ -4078,7 +4078,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline int import_ufunc() except -1:
  */
       __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__2, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 992, __pyx_L5_except_error)
@@ -4090,7 +4090,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
 
     /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":989
- * 
+ *
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
@@ -4107,7 +4107,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":988
  *         raise ImportError("numpy.core.multiarray failed to import")
- * 
+ *
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
  *     try:
  *         _import_umath()
@@ -4130,7 +4130,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":994
  *         raise ImportError("numpy.core.umath failed to import")
- * 
+ *
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
  *     try:
  *         _import_umath()
@@ -4153,7 +4153,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":995
- * 
+ *
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
@@ -4178,7 +4178,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 996, __pyx_L3_error)
 
       /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":995
- * 
+ *
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
@@ -4196,7 +4196,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
  *         raise ImportError("numpy.core.umath failed to import")
- * 
+ *
  */
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
@@ -4210,8 +4210,8 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
       __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__2, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 998, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
@@ -4222,7 +4222,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
 
     /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":995
- * 
+ *
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
@@ -4239,7 +4239,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":994
  *         raise ImportError("numpy.core.umath failed to import")
- * 
+ *
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
  *     try:
  *         _import_umath()
@@ -4261,8 +4261,8 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 }
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1001
- * 
- * 
+ *
+ *
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
  *     """
  *     Cython equivalent of `isinstance(obj, np.timedelta64)`
@@ -4277,15 +4277,15 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1001
- * 
- * 
+ *
+ *
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
  *     """
  *     Cython equivalent of `isinstance(obj, np.timedelta64)`
@@ -4298,8 +4298,8 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
 }
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1016
- * 
- * 
+ *
+ *
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
  *     """
  *     Cython equivalent of `isinstance(obj, np.datetime64)`
@@ -4314,15 +4314,15 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1016
- * 
- * 
+ *
+ *
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
  *     """
  *     Cython equivalent of `isinstance(obj, np.datetime64)`
@@ -4335,8 +4335,8 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 }
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1031
- * 
- * 
+ *
+ *
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
  *     """
  *     returns the int64 value underlying scalar numpy datetime64 object
@@ -4349,15 +4349,15 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1031
- * 
- * 
+ *
+ *
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
  *     """
  *     returns the int64 value underlying scalar numpy datetime64 object
@@ -4369,8 +4369,8 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 }
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1041
- * 
- * 
+ *
+ *
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
  *     """
  *     returns the int64 value underlying scalar numpy timedelta64 object
@@ -4383,15 +4383,15 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1041
- * 
- * 
+ *
+ *
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
  *     """
  *     returns the int64 value underlying scalar numpy timedelta64 object
@@ -4403,8 +4403,8 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 }
 
 /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1048
- * 
- * 
+ *
+ *
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
  *     """
  *     returns the unit part of the dtype for a numpy datetime64 object.
@@ -4422,8 +4422,8 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   goto __pyx_L0;
 
   /* "../../../../../anaconda3/envs/HP/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1048
- * 
- * 
+ *
+ *
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
  *     """
  *     returns the unit part of the dtype for a numpy datetime64 object.
@@ -4436,14 +4436,14 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
 
 /* "cpitchcontrol.pyx":5
  * import cmath
- * 
+ *
  * def cCalcPitchControlTarget(float target_x, float target_y, list attacking_players, list defending_players, float ball_x, float ball_y, dict params):             # <<<<<<<<<<<<<<
  *     # calculate ball travel time from start position to end position.
  *     # ball travel time is distance to target position from current ball position divided assumed average ball speed
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_13cpitchcontrol_1cCalcPitchControlTarget(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_13cpitchcontrol_1cCalcPitchControlTarget(PyObject *__pyx_self,
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -4451,7 +4451,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
 static PyMethodDef __pyx_mdef_13cpitchcontrol_1cCalcPitchControlTarget = {"cCalcPitchControlTarget", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_13cpitchcontrol_1cCalcPitchControlTarget, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_13cpitchcontrol_1cCalcPitchControlTarget(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_13cpitchcontrol_1cCalcPitchControlTarget(PyObject *__pyx_self,
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -4657,7 +4657,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
  *     # calculate ball travel time from start position to end position.
  *     # ball travel time is distance to target position from current ball position divided assumed average ball speed
  *     cdef float ball_travel_time = cmath.sqrt(pow(target_x - ball_x, 2) + pow(target_y - ball_y, 2)).real / params['average_ball_speed']             # <<<<<<<<<<<<<<
- * 
+ *
  *     for p in attacking_players:
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_cmath); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 8, __pyx_L1_error)
@@ -4719,7 +4719,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
 
   /* "cpitchcontrol.pyx":10
  *     cdef float ball_travel_time = cmath.sqrt(pow(target_x - ball_x, 2) + pow(target_y - ball_y, 2)).real / params['average_ball_speed']
- * 
+ *
  *     for p in attacking_players:             # <<<<<<<<<<<<<<
  *         p.simple_time_to_intercept(target_x, target_y)
  *     for p in defending_players:
@@ -4741,7 +4741,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
     __pyx_t_1 = 0;
 
     /* "cpitchcontrol.pyx":11
- * 
+ *
  *     for p in attacking_players:
  *         p.simple_time_to_intercept(target_x, target_y)             # <<<<<<<<<<<<<<
  *     for p in defending_players:
@@ -4779,7 +4779,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
 
     /* "cpitchcontrol.pyx":10
  *     cdef float ball_travel_time = cmath.sqrt(pow(target_x - ball_x, 2) + pow(target_y - ball_y, 2)).real / params['average_ball_speed']
- * 
+ *
  *     for p in attacking_players:             # <<<<<<<<<<<<<<
  *         p.simple_time_to_intercept(target_x, target_y)
  *     for p in defending_players:
@@ -4792,7 +4792,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
  *         p.simple_time_to_intercept(target_x, target_y)
  *     for p in defending_players:             # <<<<<<<<<<<<<<
  *         p.simple_time_to_intercept(target_x, target_y)
- * 
+ *
  */
   if (unlikely(__pyx_v_defending_players == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
@@ -4814,7 +4814,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
  *         p.simple_time_to_intercept(target_x, target_y)
  *     for p in defending_players:
  *         p.simple_time_to_intercept(target_x, target_y)             # <<<<<<<<<<<<<<
- * 
+ *
  *     # first get arrival time of 'nearest' attacking player (nearest also dependent on current velocity)
  */
     __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_p, __pyx_n_s_simple_time_to_intercept); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 13, __pyx_L1_error)
@@ -4852,17 +4852,17 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
  *         p.simple_time_to_intercept(target_x, target_y)
  *     for p in defending_players:             # <<<<<<<<<<<<<<
  *         p.simple_time_to_intercept(target_x, target_y)
- * 
+ *
  */
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "cpitchcontrol.pyx":16
- * 
+ *
  *     # first get arrival time of 'nearest' attacking player (nearest also dependent on current velocity)
  *     cdef float tau_min_att = np.nanmin([p.simple_time_to_intercept(target_x, target_y) for p in attacking_players])             # <<<<<<<<<<<<<<
  *     cdef float tau_min_def = np.nanmin([p.simple_time_to_intercept(target_x, target_y) for p in defending_players])
- * 
+ *
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -4955,7 +4955,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
  *     # first get arrival time of 'nearest' attacking player (nearest also dependent on current velocity)
  *     cdef float tau_min_att = np.nanmin([p.simple_time_to_intercept(target_x, target_y) for p in attacking_players])
  *     cdef float tau_min_def = np.nanmin([p.simple_time_to_intercept(target_x, target_y) for p in defending_players])             # <<<<<<<<<<<<<<
- * 
+ *
  *     # solve pitch control model by integrating equation 3 in Spearman et al.
  */
   __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 17, __pyx_L1_error)
@@ -5236,7 +5236,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
 
   /* "cpitchcontrol.pyx":30
  *     cdef float dPPCFdT
- * 
+ *
  *     while 1 - ptot > params['model_converge_tol'] and i < dT_array.size:             # <<<<<<<<<<<<<<
  *         T = dT_array[i]
  *         for player in attacking_players:
@@ -5267,7 +5267,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
     if (!__pyx_t_16) break;
 
     /* "cpitchcontrol.pyx":31
- * 
+ *
  *     while 1 - ptot > params['model_converge_tol'] and i < dT_array.size:
  *         T = dT_array[i]             # <<<<<<<<<<<<<<
  *         for player in attacking_players:
@@ -5640,7 +5640,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
  *             PPCFdef[i] += player.PPCF  # add to sum over players in the defending team
  *         ptot = PPCFdef[i] + PPCFatt[i]  # total pitch control probability             # <<<<<<<<<<<<<<
  *         i += 1
- * 
+ *
  */
     __pyx_t_19 = __pyx_v_i;
     __pyx_t_6 = -1;
@@ -5668,7 +5668,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
  *             PPCFdef[i] += player.PPCF  # add to sum over players in the defending team
  *         ptot = PPCFdef[i] + PPCFatt[i]  # total pitch control probability
  *         i += 1             # <<<<<<<<<<<<<<
- * 
+ *
  *     '''if i >= dT_array.size:
  */
     __pyx_v_i = (__pyx_v_i + 1);
@@ -5676,9 +5676,9 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
 
   /* "cpitchcontrol.pyx":52
  *         print("Integration failed to converge: %1.3f" % (ptot))'''
- * 
+ *
  *     return attacking_players, defending_players             # <<<<<<<<<<<<<<
- * 
+ *
  * def cCalcPitchControlFrame(list attacking_players, list defending_players, float ball_x, float ball_y, dict params, int n_grid_cells_x, float field_x, float field_y):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -5696,7 +5696,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
 
   /* "cpitchcontrol.pyx":5
  * import cmath
- * 
+ *
  * def cCalcPitchControlTarget(float target_x, float target_y, list attacking_players, list defending_players, float ball_x, float ball_y, dict params):             # <<<<<<<<<<<<<<
  *     # calculate ball travel time from start position to end position.
  *     # ball travel time is distance to target position from current ball position divided assumed average ball speed
@@ -5743,14 +5743,14 @@ static PyObject *__pyx_pf_13cpitchcontrol_cCalcPitchControlTarget(CYTHON_UNUSED 
 
 /* "cpitchcontrol.pyx":54
  *     return attacking_players, defending_players
- * 
+ *
  * def cCalcPitchControlFrame(list attacking_players, list defending_players, float ball_x, float ball_y, dict params, int n_grid_cells_x, float field_x, float field_y):             # <<<<<<<<<<<<<<
  *     cdef int att_n = len(attacking_players)
  *     cdef int def_n = len(defending_players)
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_13cpitchcontrol_3cCalcPitchControlFrame(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_13cpitchcontrol_3cCalcPitchControlFrame(PyObject *__pyx_self,
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5758,7 +5758,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
 static PyMethodDef __pyx_mdef_13cpitchcontrol_3cCalcPitchControlFrame = {"cCalcPitchControlFrame", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_13cpitchcontrol_3cCalcPitchControlFrame, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_13cpitchcontrol_3cCalcPitchControlFrame(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_13cpitchcontrol_3cCalcPitchControlFrame(PyObject *__pyx_self,
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5985,11 +5985,11 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
   __pyx_pybuffernd_PPCFd.rcbuffer = &__pyx_pybuffer_PPCFd;
 
   /* "cpitchcontrol.pyx":55
- * 
+ *
  * def cCalcPitchControlFrame(list attacking_players, list defending_players, float ball_x, float ball_y, dict params, int n_grid_cells_x, float field_x, float field_y):
  *     cdef int att_n = len(attacking_players)             # <<<<<<<<<<<<<<
  *     cdef int def_n = len(defending_players)
- * 
+ *
  */
   if (unlikely(__pyx_v_attacking_players == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
@@ -6002,7 +6002,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
  * def cCalcPitchControlFrame(list attacking_players, list defending_players, float ball_x, float ball_y, dict params, int n_grid_cells_x, float field_x, float field_y):
  *     cdef int att_n = len(attacking_players)
  *     cdef int def_n = len(defending_players)             # <<<<<<<<<<<<<<
- * 
+ *
  *     # break the pitch down into a grid
  */
   if (unlikely(__pyx_v_defending_players == Py_None)) {
@@ -6013,7 +6013,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
   __pyx_v_def_n = __pyx_t_1;
 
   /* "cpitchcontrol.pyx":59
- * 
+ *
  *     # break the pitch down into a grid
  *     cdef int n_grid_cells_y = int(n_grid_cells_x * field_y / field_x)             # <<<<<<<<<<<<<<
  *     cdef np.ndarray[np.double_t] xgrid = np.linspace(-field_x / 2., field_x / 2., n_grid_cells_x)
@@ -6031,7 +6031,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
  *     cdef int n_grid_cells_y = int(n_grid_cells_x * field_y / field_x)
  *     cdef np.ndarray[np.double_t] xgrid = np.linspace(-field_x / 2., field_x / 2., n_grid_cells_x)             # <<<<<<<<<<<<<<
  *     cdef np.ndarray[np.double_t] ygrid = np.linspace(-field_y / 2., field_y / 2., n_grid_cells_y)
- * 
+ *
  */
   __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 60, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -6085,7 +6085,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
  *     cdef int n_grid_cells_y = int(n_grid_cells_x * field_y / field_x)
  *     cdef np.ndarray[np.double_t] xgrid = np.linspace(-field_x / 2., field_x / 2., n_grid_cells_x)
  *     cdef np.ndarray[np.double_t] ygrid = np.linspace(-field_y / 2., field_y / 2., n_grid_cells_y)             # <<<<<<<<<<<<<<
- * 
+ *
  *     # initialise pitch control grids for attacking and defending teams np.zeros(shape=(len(ygrid), len(xgrid)))
  */
   __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 61, __pyx_L1_error)
@@ -6137,11 +6137,11 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
   __pyx_t_3 = 0;
 
   /* "cpitchcontrol.pyx":64
- * 
+ *
  *     # initialise pitch control grids for attacking and defending teams np.zeros(shape=(len(ygrid), len(xgrid)))
  *     cdef np.ndarray[np.double_t, ndim=3] PPCFa = np.zeros(shape=(att_n + 1, len(ygrid), len(xgrid)))             # <<<<<<<<<<<<<<
  *     cdef np.ndarray[np.double_t, ndim=3] PPCFd = np.zeros(shape=(def_n + 1, len(ygrid), len(xgrid)))
- * 
+ *
  */
   __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 64, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
@@ -6193,7 +6193,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
  *     # initialise pitch control grids for attacking and defending teams np.zeros(shape=(len(ygrid), len(xgrid)))
  *     cdef np.ndarray[np.double_t, ndim=3] PPCFa = np.zeros(shape=(att_n + 1, len(ygrid), len(xgrid)))
  *     cdef np.ndarray[np.double_t, ndim=3] PPCFd = np.zeros(shape=(def_n + 1, len(ygrid), len(xgrid)))             # <<<<<<<<<<<<<<
- * 
+ *
  *     cdef float target_x
  */
   __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_np); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 65, __pyx_L1_error)
@@ -6243,7 +6243,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
   __pyx_t_4 = 0;
 
   /* "cpitchcontrol.pyx":71
- * 
+ *
  *     # calculate pitch pitch control model at each location on the pitch
  *     for i in range(len(ygrid)):             # <<<<<<<<<<<<<<
  *         for j in range(len(xgrid)):
@@ -6271,7 +6271,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
  *         for j in range(len(xgrid)):
  *             target_y = ygrid[i]             # <<<<<<<<<<<<<<
  *             target_x = xgrid[j]
- * 
+ *
  */
       __pyx_t_19 = __pyx_v_i;
       __pyx_t_9 = -1;
@@ -6289,7 +6289,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
  *         for j in range(len(xgrid)):
  *             target_y = ygrid[i]
  *             target_x = xgrid[j]             # <<<<<<<<<<<<<<
- * 
+ *
  *             attacking_players, def_pls = cCalcPitchControlTarget(target_x, target_y, attacking_players, defending_players, ball_x, ball_y, params)
  */
       __pyx_t_19 = __pyx_v_j;
@@ -6306,9 +6306,9 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
 
       /* "cpitchcontrol.pyx":76
  *             target_x = xgrid[j]
- * 
+ *
  *             attacking_players, def_pls = cCalcPitchControlTarget(target_x, target_y, attacking_players, defending_players, ball_x, ball_y, params)             # <<<<<<<<<<<<<<
- * 
+ *
  *             for k in range(att_n):
  */
       __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_cCalcPitchControlTarget); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 76, __pyx_L1_error)
@@ -6355,11 +6355,11 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
         if (likely(PyTuple_CheckExact(sequence))) {
-          __pyx_t_8 = PyTuple_GET_ITEM(sequence, 0); 
-          __pyx_t_7 = PyTuple_GET_ITEM(sequence, 1); 
+          __pyx_t_8 = PyTuple_GET_ITEM(sequence, 0);
+          __pyx_t_7 = PyTuple_GET_ITEM(sequence, 1);
         } else {
-          __pyx_t_8 = PyList_GET_ITEM(sequence, 0); 
-          __pyx_t_7 = PyList_GET_ITEM(sequence, 1); 
+          __pyx_t_8 = PyList_GET_ITEM(sequence, 0);
+          __pyx_t_7 = PyList_GET_ITEM(sequence, 1);
         }
         __Pyx_INCREF(__pyx_t_8);
         __Pyx_INCREF(__pyx_t_7);
@@ -6399,7 +6399,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
 
       /* "cpitchcontrol.pyx":78
  *             attacking_players, def_pls = cCalcPitchControlTarget(target_x, target_y, attacking_players, defending_players, ball_x, ball_y, params)
- * 
+ *
  *             for k in range(att_n):             # <<<<<<<<<<<<<<
  *                 PPCFa[-1, i, j] += attacking_players[k].PPCF
  *                 PPCFa[k, i, j] = attacking_players[k].PPCF
@@ -6410,7 +6410,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
         __pyx_v_k = __pyx_t_23;
 
         /* "cpitchcontrol.pyx":79
- * 
+ *
  *             for k in range(att_n):
  *                 PPCFa[-1, i, j] += attacking_players[k].PPCF             # <<<<<<<<<<<<<<
  *                 PPCFa[k, i, j] = attacking_players[k].PPCF
@@ -6619,7 +6619,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
  *                 PPCFd[k, i, j] = defending_players[k].PPCF
  *                 defending_players[k].PPCF = 0             # <<<<<<<<<<<<<<
  *                 defending_players[k].time_to_intercept = 0
- * 
+ *
  */
         if (unlikely(__pyx_v_defending_players == Py_None)) {
           PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
@@ -6634,7 +6634,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
  *                 PPCFd[k, i, j] = defending_players[k].PPCF
  *                 defending_players[k].PPCF = 0
  *                 defending_players[k].time_to_intercept = 0             # <<<<<<<<<<<<<<
- * 
+ *
  *     return PPCFa, PPCFd
  */
         if (unlikely(__pyx_v_defending_players == Py_None)) {
@@ -6651,7 +6651,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
 
   /* "cpitchcontrol.pyx":89
  *                 defending_players[k].time_to_intercept = 0
- * 
+ *
  *     return PPCFa, PPCFd             # <<<<<<<<<<<<<<
  */
   __Pyx_XDECREF(__pyx_r);
@@ -6669,7 +6669,7 @@ static PyObject *__pyx_pf_13cpitchcontrol_2cCalcPitchControlFrame(CYTHON_UNUSED 
 
   /* "cpitchcontrol.pyx":54
  *     return attacking_players, defending_players
- * 
+ *
  * def cCalcPitchControlFrame(list attacking_players, list defending_players, float ball_x, float ball_y, dict params, int n_grid_cells_x, float field_x, float field_y):             # <<<<<<<<<<<<<<
  *     cdef int att_n = len(attacking_players)
  *     cdef int def_n = len(defending_players)
@@ -6827,7 +6827,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline int import_umath() except -1:
  */
   __pyx_tuple_ = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple_)) __PYX_ERR(1, 986, __pyx_L1_error)
@@ -6838,7 +6838,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline int import_ufunc() except -1:
  */
   __pyx_tuple__2 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(1, 992, __pyx_L1_error)
@@ -6847,7 +6847,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "cpitchcontrol.pyx":5
  * import cmath
- * 
+ *
  * def cCalcPitchControlTarget(float target_x, float target_y, list attacking_players, list defending_players, float ball_x, float ball_y, dict params):             # <<<<<<<<<<<<<<
  *     # calculate ball travel time from start position to end position.
  *     # ball travel time is distance to target position from current ball position divided assumed average ball speed
@@ -6859,7 +6859,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "cpitchcontrol.pyx":54
  *     return attacking_players, defending_players
- * 
+ *
  * def cCalcPitchControlFrame(list attacking_players, list defending_players, float ball_x, float ball_y, dict params, int n_grid_cells_x, float field_x, float field_y):             # <<<<<<<<<<<<<<
  *     cdef int att_n = len(attacking_players)
  *     cdef int def_n = len(defending_players)
@@ -6967,7 +6967,7 @@ static int __Pyx_modinit_type_import_code(void) {
   /*--- Type import code ---*/
   __pyx_t_1 = PyImport_ImportModule(__Pyx_BUILTIN_MODULE_NAME); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 9, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_ptype_7cpython_4type_type = __Pyx_ImportType_3_0_0(__pyx_t_1, __Pyx_BUILTIN_MODULE_NAME, "type", 
+  __pyx_ptype_7cpython_4type_type = __Pyx_ImportType_3_0_0(__pyx_t_1, __Pyx_BUILTIN_MODULE_NAME, "type",
   #if defined(PYPY_VERSION_NUM) && PYPY_VERSION_NUM < 0x050B0000
   sizeof(PyTypeObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_0(PyTypeObject),
   #elif CYTHON_COMPILING_IN_LIMITED_API
@@ -7313,7 +7313,7 @@ if (!__Pyx_RefNanny) {
  * import numpy as np
  * cimport numpy as np
  * import cmath             # <<<<<<<<<<<<<<
- * 
+ *
  * def cCalcPitchControlTarget(float target_x, float target_y, list attacking_players, list defending_players, float ball_x, float ball_y, dict params):
  */
   __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_n_s_cmath, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 3, __pyx_L1_error)
@@ -7323,7 +7323,7 @@ if (!__Pyx_RefNanny) {
 
   /* "cpitchcontrol.pyx":5
  * import cmath
- * 
+ *
  * def cCalcPitchControlTarget(float target_x, float target_y, list attacking_players, list defending_players, float ball_x, float ball_y, dict params):             # <<<<<<<<<<<<<<
  *     # calculate ball travel time from start position to end position.
  *     # ball travel time is distance to target position from current ball position divided assumed average ball speed
@@ -7335,7 +7335,7 @@ if (!__Pyx_RefNanny) {
 
   /* "cpitchcontrol.pyx":54
  *     return attacking_players, defending_players
- * 
+ *
  * def cCalcPitchControlFrame(list attacking_players, list defending_players, float ball_x, float ball_y, dict params, int n_grid_cells_x, float field_x, float field_y):             # <<<<<<<<<<<<<<
  *     cdef int att_n = len(attacking_players)
  *     cdef int def_n = len(defending_players)

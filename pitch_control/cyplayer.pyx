@@ -2,6 +2,7 @@
 
 from Player cimport Player
 
+
 # Create a Cython extension type which holds a C++ instance
 # as an attribute and create a bunch of forwarding methods
 # Python extension type.
