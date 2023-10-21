@@ -47,3 +47,4 @@ venv.bak/
 .dmypy.json
 dmypy.json
 cython_debug/
+build/
