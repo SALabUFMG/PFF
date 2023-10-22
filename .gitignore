@@ -48,3 +48,4 @@ venv.bak/
 dmypy.json
 cython_debug/
 build/
+.c
