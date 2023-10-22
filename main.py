@@ -1,6 +1,5 @@
 import d6tflow as d6t
-
-from visualize import frame as fr
+from pff.visualize import frame as fr
 
 d6t.settings
 

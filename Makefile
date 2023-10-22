@@ -26,6 +26,6 @@ dev: install
 
 clean:
 	rm -rf $(VENV_DIR)
-	find . -type f \( -name "*.so" -o -name "*.pyc" -o -name "*.pyo" -o -name "*.c" -o -name "*.cpp" \) -not -path "./pitch_control/Player.cpp" -exec rm -f {} +
+	find . -type f \( -name "*.so" -o -name "*.pyc" -o -name "*.pyo" -o -name "*.c" -o -name "*.cpp" \) -not -path "./pff/pitch_control/Player.cpp" -exec rm -f {} +
 	find . -type d -name "__pycache__" -exec rm -rf {} +
 	rm -rf build
