@@ -3,20 +3,20 @@ from Cython.Build import cythonize
 from setuptools import Extension, setup
 
 cyplayer_module = Extension(
-    name="cyplayer",
-    sources=["cyplayer.pyx"],
+    name="pitch_control.cyplayer",
+    sources=["pitch_control/cyplayer.pyx"],
     include_dirs=[np.get_include()],
 )
 
 pc_module = Extension(
-    name="cpitchcontrol",
-    sources=["cpitchcontrol.pyx"],
+    name="pitch_control.cpitchcontrol",
+    sources=["pitch_control/cpitchcontrol.pyx"],
     include_dirs=[np.get_include()],
 )
 
 tp_module = Extension(
-    name="ctransitionprobability",
-    sources=["ctransitionprobability.pyx"],
+    name="pitch_control.ctransitionprobability",
+    sources=["pitch_control/ctransitionprobability.pyx"],
     include_dirs=[np.get_include()],
 )
 
