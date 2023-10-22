@@ -3,7 +3,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.so
+*.so
 .Python
 wheels/
 share/python-wheels/
@@ -46,4 +46,6 @@ venv.bak/
 dmypy.json
 cython_debug/
 build/
-.c
+*.c
+*.cpp
+!Player.cpp
