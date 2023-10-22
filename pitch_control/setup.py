@@ -2,7 +2,11 @@ import numpy as np
 from Cython.Build import cythonize
 from setuptools import Extension, setup
 
-setup(ext_modules=cythonize("cyplayer.pyx"))
+cyplayer_module = Extension(
+    name="cyplayer", sources=["cyplayer.pyx"], include_dirs=[np.get_include()]
+)
+
+setup(ext_modules=cythonize([cyplayer_module]))
 
 pc_module = Extension(
     "cpitchcontrol", sources=["cpitchcontrol.pyx"], include_dirs=[np.get_include()]
