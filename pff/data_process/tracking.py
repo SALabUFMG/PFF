@@ -3,9 +3,10 @@ import itertools
 import d6tflow as d6t
 import numpy as np
 import pandas as pd
-from config import RAW_DATA_PATH
 
-from data_process import base
+from ..data_process import base
+
+RAW_DATA_PATH = "/Users/hugo-gemini/Documents/UFMG/SALab/Data/PFF/Raw"
 
 
 class LoadTrackingHalf(d6t.tasks.TaskPickle):
