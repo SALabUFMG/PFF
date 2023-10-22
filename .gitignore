@@ -33,8 +33,6 @@ target/
 profile_default/
 ipython_config.py
 .python-version
-Pipfile.lock
-poetry.lock
 __pypackages__/
 .env
 .venv
