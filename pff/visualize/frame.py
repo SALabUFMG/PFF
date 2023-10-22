@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Project imports
-from data_process import tracking as tr
-from pitch_control import pitchcontrol as pc
-from visualize import pitch as pt
+from ..data_process import tracking as tr
+from ..pitch_control import pitchcontrol as pc
+from . import pitch as pt
 
 
 @d6t.inherits(tr.LoadTrackingHalf)
