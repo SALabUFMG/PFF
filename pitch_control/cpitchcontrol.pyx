@@ -1,6 +1,9 @@
 import numpy as np
+
 cimport numpy as np
+
 import cmath
+
 
 def cCalcPitchControlTarget(float target_x, float target_y, list attacking_players, list defending_players, float ball_x, float ball_y, dict params):
     # calculate ball travel time from start position to end position.
@@ -45,7 +48,7 @@ def cCalcPitchControlTarget(float target_x, float target_y, list attacking_playe
             PPCFdef[i] += player.PPCF  # add to sum over players in the defending team
         ptot = PPCFdef[i] + PPCFatt[i]  # total pitch control probability
         i += 1
-    
+
     '''if i >= dT_array.size:
         print("Integration failed to converge: %1.3f" % (ptot))'''
 

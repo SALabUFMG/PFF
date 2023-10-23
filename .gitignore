@@ -3,7 +3,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.so
+*.so
 .Python
 wheels/
 share/python-wheels/
@@ -33,8 +33,6 @@ target/
 profile_default/
 ipython_config.py
 .python-version
-Pipfile.lock
-poetry.lock
 __pypackages__/
 .env
 .venv
@@ -47,3 +45,7 @@ venv.bak/
 .dmypy.json
 dmypy.json
 cython_debug/
+build/
+*.c
+*.cpp
+!Player.cpp
