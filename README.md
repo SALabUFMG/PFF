@@ -19,8 +19,29 @@ This package handles tracking data from PFF FC.
 
 ## Setup guide
 
-### General Installation
-Here's what you have to do to clone and install the requirements.
+### Using Make
+
+To clone the repository and install all requirements, you can use the provided `Makefile`:
+
+```bash
+git clone git@github.com:SALabUFMG/PFF.git
+cd PFF
+make install
+```
+
+This will create a virtual environment, install Poetry, and install all project dependencies. In addition, it will build the pitch control modules.
+
+Running `make` without args will also install all deps.
+
+Activate venv and you're good to go:
+
+```bash
+. .venv/bin/activate
+```
+
+### Manual install
+
+If you don't want to use the Makefile, you can follow the lines below:
 
 ```bash
 git clone git@github.com:SALabUFMG/PFF.git
@@ -37,18 +58,30 @@ pip install poetry
 poetry install
 ```
 
-When you're done, don't forget to deactivate the virtual env:
+#### Pitch Control modules
 
-### Pitch Control Module Installation
+Before you build the Pitch Control modules, ensure that you have a C++ compiler installed.
 
-First of all, ensure you have a C++ compiler installed. After that, do the following:
+In MacOS:
+
 ```bash
-cd 'your_path/PFF/pitch_control'
-python setup.py build_ext --inplace
+brew install gcc
+```
+
+You can manually build the Pitch Control module by running from the root directory:
+
+```bash
+python build_pitch_control.py build_ext --inplace
 ```
 
 ## Usage
 Details on how to use each of the tools in this repository will be provided soon.
+
+Until then, don't forget to deactivate the virtualenv when you're done:
+
+```bash
+deactivate
+```
 
 ## Testing
 Testing guidelines and procedures will be added in the near future :)
@@ -58,7 +91,13 @@ Testing guidelines and procedures will be added in the near future :)
 If you plan to contribute to the project, make sure to install the pre-commit hooks:
 
 ```bash
-pre-commit install
+make dev
 ```
 
 The pre-commit hooks will run automatically when you attempt to commit code. Make sure they pass to ensure code quality and maintainability.
+
+To clean the repo of compiled and generated files, run
+
+```bash
+make clean
+```

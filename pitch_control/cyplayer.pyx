@@ -1,6 +1,6 @@
 # distutils: language = c++
 
-from Player cimport Player
+from .Player cimport Player
 
 
 # Create a Cython extension type which holds a C++ instance
