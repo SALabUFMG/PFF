@@ -150,6 +150,10 @@ def actionresutl2spadl_noinsert(row):
     elif setpieceType == "G": # goalkick
       passActionType = "goalkick"
 
+    # pass action type based on bodytype
+    if passEvent['passBodyType'] == 'TWOHANDS':
+      passActionType = "throw_in"
+
     finalEvent["actiontype_name"] = passActionType
     finalEvent["actiontype_id"] = actiontypes_spadl.index(passActionType)
     finalEvent["result_name"] = passOutcome
