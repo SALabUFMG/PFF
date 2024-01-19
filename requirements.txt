@@ -1,0 +1,13 @@
+Cython==3.0.4
+d6tflow==0.2.6
+google-colab
+IPython
+matplotlib==3.8.0
+matplotsoccer==0.0.8
+numpy==1.26.3
+pandas==2.1.4
+PyPFF @ git+https://github.com/pro-football-focus/pypff.git
+scipy==1.11.4
+setuptools==68.2.2
+socceraction==1.5.0
+tqdm==4.66.1
