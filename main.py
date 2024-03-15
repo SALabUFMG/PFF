@@ -50,8 +50,7 @@ conv2 = nn.Sequential(
     nn.MaxPool2d(2, 2)
 )
 fusion = nn.Sequential(
-    nn.ZeroPad2d(1),
-    nn.Conv2d(8, 1, kernel_size=(3, 3), stride=1, padding='valid', dtype=float),
+    nn.Conv2d(8, 1, kernel_size=(1, 1), stride=1, dtype=float),
     nn.ReLU()
 )
 

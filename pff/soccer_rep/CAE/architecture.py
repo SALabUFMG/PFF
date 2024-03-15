@@ -1,6 +1,7 @@
 # Library imports
 from torch import nn
 
+
 class SoccerRepCAE(nn.Module):
 
     def __init__(self, n_channels, width, height, latent_dim):
@@ -15,19 +16,28 @@ class SoccerRepCAE(nn.Module):
         # Encoder layers
         self.conv1 = nn.Sequential(
             nn.ZeroPad2d(1),
-            nn.Conv2d(n_channels, 8, kernel_size=(3, 3), stride=1, padding='valid', dtype=float),
+            nn.Conv2d(1, 8, kernel_size=(3, 3), stride=1, padding='valid', dtype=float),
             nn.ReLU(),
             nn.MaxPool2d(2, 2)
+        )
+        self.fusion1 = nn.Sequential(
+            nn.Conv2d(8, 1, kernel_size=(1, 1), stride=1, dtype=float),
+            nn.ReLU()
         )
         self.conv2 = nn.Sequential(
             nn.ZeroPad2d(1),
             nn.Conv2d(8, 8, kernel_size=(3, 3), stride=1, padding='valid', dtype=float),
+            nn.ReLU(),
+            nn.MaxPool2d(2, 2)
+        )
+        self.fusion2 = nn.Sequential(
+            nn.Conv2d(8, 1, kernel_size=(1, 1), stride=1, dtype=float),
             nn.ReLU()
         )
-        self.fc_e = nn.Linear(8 * self.width * self.height, self.latent_dim, dtype=float)
+        self.fc_e = nn.Linear(int(self.width/2) * int(self.height/2) + int(self.width/4) * int(self.height/4), self.latent_dim, dtype=float)
 
         # Decoder layers
-        self.fc_d = nn.Linear(self.latent_dim, 8 * self.width * self.height, dtype=float)
+        self.fc_d = nn.Linear(self.latent_dim, self.width * self.height, dtype=float)
         self.deconv1 = nn.Sequential(
             nn.ConvTranspose2d(8, n_channels, kernel_size=3, stride=1, padding=(1, 1), dtype=float),
             nn.Sigmoid(),
