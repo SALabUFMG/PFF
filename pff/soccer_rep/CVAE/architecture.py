@@ -34,7 +34,8 @@ class SoccerRepCAE(nn.Module):
             nn.Conv2d(8, 1, kernel_size=(1, 1), stride=1, dtype=float),
             nn.ReLU()
         )
-        self.fc_e = nn.Linear(int(self.width/2) * int(self.height/2) + int(self.width/4) * int(self.height/4), self.latent_dim, dtype=float)
+        self.fc_mu = nn.Linear(int(self.width/2) * int(self.height/2) + int(self.width/4) * int(self.height/4), self.latent_dim, dtype=float)
+        self.fc_logvar = nn.Linear(int(self.width/2) * int(self.height/2) + int(self.width/4) * int(self.height/4), self.latent_dim, dtype=float)
 
         # Decoder layers
         self.fc_d = nn.Linear(self.latent_dim, 8 * self.width * self.height, dtype=float)
